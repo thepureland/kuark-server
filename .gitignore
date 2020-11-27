@@ -1,0 +1,12 @@
+/.gradle
+/.idea
+/out
+/build
+*.iml
+*.ipr
+*.iws
+**/build/
+*.hprof
+/.sessions
+/.sessionStore
+*.log
