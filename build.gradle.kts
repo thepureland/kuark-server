@@ -10,10 +10,10 @@ val spring_cloud_version: String by project
 plugins {
 //    application
 //    java
-    id("org.springframework.boot") version "2.2.5.RELEASE"
-    id("io.spring.dependency-management") version "1.0.9.RELEASE"
-    kotlin("jvm") version "1.4.10"
-    kotlin("plugin.spring") version "1.4.10"
+    id("org.springframework.boot") version "2.4.6"
+    id("io.spring.dependency-management") version "1.0.10.RELEASE"
+    kotlin("jvm") version "1.5.10"
+    kotlin("plugin.spring") version "1.5.10"
 }
 
 /* 插件的配置需要在buildscript元素中 */
@@ -23,10 +23,10 @@ buildscript {
 //        maven { url = uri("https://plugins.gradle.org/m2/") }
 //    }
     /* 插件依赖 */
-    dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.2.5.RELEASE")
-        classpath("io.spring.gradle:dependency-management-plugin:1.0.9.RELEASE")
-    }
+//    dependencies {
+//        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.2.5.RELEASE")
+//        classpath("io.spring.gradle:dependency-management-plugin:1.0.9.RELEASE")
+//    }
 }
 
 
